@@ -1,0 +1,15 @@
+@-moz-document domain("email-templates.app") {
+    /* Servises */
+
+    .theme-white .ui-listbox-list-wrapper {
+        max-height: 320px !important;
+    }
+
+    div.ui-listbox.ui-inputtext.ui-widget.ui-widget-content.ui-corner-all {
+        height: 370px !important;
+    }
+
+    .theme-white .adx-message-box .adx-message-box-text {
+        max-height: 420px;
+    }
+}
