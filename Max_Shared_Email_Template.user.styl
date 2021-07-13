@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name         Max Shared Email Template
+@namespace    https://github.com/pasharm/userstyles
+@description  Увеличение всплывающих окон в Shared Email Template
+@author       pasharm <mpasha066@gmail.com> (https://github.com/pasharm/)
+@homepageURL  https://github.com/pasharm/userstyles
+@supportURL   https://github.com/pasharm/userstyles/issues
+@preprocessor stylus
+*/
+
+@-moz-document domain("email-templates.app") {
+
+	.theme-white .ui-listbox-list-wrapper {
+		max-height: 320px !important;
+	}
+
+	div.ui-listbox.ui-inputtext.ui-widget.ui-widget-content.ui-corner-all {
+		height: 370px !important;
+	}
+
+	.theme-white .adx-message-box .adx-message-box-text {
+		max-height: 420px;
+	}
+}
